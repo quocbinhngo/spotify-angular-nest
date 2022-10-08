@@ -1,0 +1,31 @@
+<div class="h-screen overflow-y-scroll scrollbar-hide w-72 bg-black p-8">
+  <!-- Logo -->
+  <div class="mb-8 flex items-center gap-x-2">
+    <fa-icon [icon]="faMusic" class="text-4xl"></fa-icon>
+    <h2 class="text-3xl font-semibold">Spotify</h2>
+  </div>
+
+  <!-- Nav link -->
+  <div class="flex flex-col gap-y-4 text-gray-400">
+    <div class="flex gap-x-4 items-center text-lg">
+      <fa-icon class="text-xl" [icon]="faHouse"></fa-icon>
+      <a class="font-medium" routerLink="/">Home</a>
+    </div>
+    <div class="flex gap-x-4 items-center text-lg">
+      <fa-icon class="text-xl" [icon]="faSearch"></fa-icon>
+      <a class="font-medium" routerLink="/">Search</a>
+    </div>
+    <div class="flex gap-x-4 items-center text-lg">
+      <fa-icon class="text-xl" [icon]="faUser"></fa-icon>
+      <a class="font-medium" routerLink="/">Your Library</a>
+    </div>
+    <div class="flex gap-x-4 items-center text-lg">
+      <fa-icon class="text-xl" [icon]="faPlus"></fa-icon>
+      <a class="font-medium" routerLink="/">Create Playlist</a>
+    </div>
+    <div class="flex gap-x-4 items-center text-lg">
+      <fa-icon class="text-xl" [icon]="faHeart"></fa-icon>
+      <a class="font-medium" routerLink="/">Liked Songs</a>
+    </div>
+  </div>
+</div>
